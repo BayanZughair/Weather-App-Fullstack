@@ -1,0 +1,87 @@
+body {
+  
+    background-image: url('https://cdn-icons-png.flaticon.com/512/284/284469.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: large;
+    font-weight:bold;
+    color: rgb(22, 22, 146);
+  
+  }
+
+input {
+    background: transparent;
+    width: 90%;
+    height: 40px;
+    font-size: large;
+    border: none;
+    border-bottom: 1px solid black;
+ 
+}
+
+button {
+  background: transparent;
+  border-radius:6cm;
+  border-color: blue;
+  font-size: large;
+  height: 40px;
+}
+
+#button{
+  border-color: transparent;
+}
+
+.dark-mode {
+  background-color: rgb(88, 87, 87);
+  color: black;
+}
+
+.city {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-items: start;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.weatherPic{
+  height: 180%;
+  animation-name: slide-from-bottom;
+  animation-duration: 1s;
+}
+
+@keyframes slide-from-bottom {
+  from {
+    margin-top: -10%;
+  }
+  to {
+    margin-top: 0;
+  }
+}
+.fa-search {
+  font-size:35px;
+   color:blue ;
+}
+
+.fa-cloud-moon-rain{
+  font-size:48px;
+  color:rgb(177, 177, 252)
+}
+
+.fa-plus-circle {
+  color: #006400;
+}
+
+.fa-plus-circle:active {
+  transform: translateY(4px);
+}
+
+.fa-minus-circle:active {
+  transform: translateY(4px);
+}
+
+.fa-minus-circle {
+  color: rgb(118, 4, 4);
+}
+
